@@ -37,8 +37,8 @@ async def on_ready():
         
 #test
 @bot.command()
-async def 우흥(ctx):
-    await ctx.send("우흥")
+async def Hello(ctx):
+    await ctx.send("Hello")
 
 #미래시
 @bot.command()
@@ -202,4 +202,4 @@ async def skip(ctx):
         embed = discord.Embed(title="",description="재생 중인 음악이 없습니다",color=0x2E9AFE)
         await ctx.send(embed=embed)
 
-bot.run('MTA2MDcyMDcxNTY4MDIwMjc2Mw.Gy_dDM.0ZDxOZ3qTjwc3r4Ibv-THBxa6mbR5u_tBiirVA')
+bot.run('TOKEN')
